@@ -14,7 +14,7 @@
   --bg-color: rgb(15, 15, 15);
   --second-bg-color: #161616;
   --text-color: white;
-  --main-color: #14ff6a;
+  --main-color: #e714ff;
 }
 html {
   font-size: 62.5%;
@@ -98,7 +98,7 @@ span {
   transition: 0.4s ease-in-out;
 }
 .home-img img:hover {
-  box-shadow: 0 0 50px var(--main-color), 0 0 100px var(--main-color);
+  box-shadow: 0 0 75px var(--main-color);
 }
 .home-content p {
   font-size: 1.8rem;
@@ -255,8 +255,7 @@ span {
 }
 .service-container .services-box:hover {
   transform: scale(1.02);
-  background-color: white;
-  color: black;
+  box-shadow: 0 0 25px var(--main-color);
 }
 .services-box i {
   font-size: 7rem;
@@ -289,7 +288,7 @@ span {
   width: 50px;
 }
 .timeline-section {
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
   padding: 100px 15px;
 }
 .timeline-section h2 {
@@ -374,7 +373,7 @@ span {
   bottom: 0;
   width: 100%;
   padding: 40px 0;
-  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
 }
 .footer .social {
   text-align: center;
