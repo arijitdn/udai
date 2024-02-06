@@ -440,7 +440,10 @@ span {
     display: none;
   }
   .navbar.active {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
   }
   .navbar .a {
     display: block;
