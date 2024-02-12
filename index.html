@@ -1,139 +1,377 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Udai Das | Portfolio</title>
-    <meta
-      name="description"
-      content="Udai Das - Web Designer, Graphics Designer, Web Developer, Programmer."
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="html, css, javascript, jquery">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   </head>
-  <body>
-    <header class="header">
-      <a href="#home" class="logo">Udai <span>Das</span></a>
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
 
-      <i class="fa-solid fa-bars" id="menu-icon"></i>
-
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#services">Services</a>
-        <a href="#education">Education</a>
-      </nav>
-    </header>
-
-    <section class="home" id="home">
-      <div class="home-content">
-        <h1>Hi, It's <span>Udai</span></h1>
-        <h3 class="text-animation">I'm a <span></span></h3>
-        <p>
-          Hi this Udai, a Computer Science engineer from India. My work lies in Front end development ,UI/UX and Graphics designing.
-        </p>
-
-        <div class="social-icons">
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        </div>
-
-        <a href="mailto://udaid347@gmail.com" class="btn"
-          >HIRE
-          <i class="fa-solid fa-briefcase"></i>
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
         </a>
       </div>
-      <div class="home-img">
-        <img src="./assets/image.jpg" alt="" />
-      </div>
-    </section>
+      <div class="site-mobile-inner"></div>
+    </nav>
 
-    <section class="services" id="services">
-      <h2 class="heading">Services</h2>
 
-      <div class="service-container">
-        <div class="services-box">
-          <i class="fa-solid fa-palette"></i>
-          <h3>Graphics Design</h3>
-          <p>
-          Part time Graphics Designer freelancer Skilled in Adobe Illustrator and Photoshop with clients from more than 10+ countries.
-          </p>
-          <a href="#" class="btn">Learn More</a>
+    <div class="unslate_co--site-wrap">
+
+      <div class="unslate_co--site-inner">
+
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
         </div>
+        <!-- END lines -->
+      
+      <nav class="unslate_co--site-nav site-nav-target">
 
-        <div class="services-box">
-          <i class="fa-solid fa-globe"></i>
-          <h3>Web Development</h3>
-          <p>
-            Front End website developer skilled in HTML, CSS and React JS.
-          </p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
+        <div class="container">
+        
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li>
+                  <a href="#home-section" class="nav-link">Home</a>
+                </li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">Udai Das<span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#skills-section" class="nav-link">Skills</a></li>
+                <li><a href="#journal-section" class="nav-link">Projects</a></li>
+                <li><a href="mailto:udaid347@gmail.com" class="nav-link">Contact</a></li>
+              </ul>
 
-        <div class="services-box">
-          <i class="fa-brands fa-figma"></i>
-          <h3>UI/UX Design</h3>
-          <p>
-            UI/UX designer skilled with tools like adobe Figma and XD.
-          </p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-      </div>
-    </section>
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle"><i class="fa-solid fa-bars fa-2x"></i></a></li>
+              </ul>
 
-    <section class="timeline-section" id="education">
-      <h2 class="heading">Education</h2>
-
-      <div class="timeline-items">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2022</div>
-          <div class="timeline-content">
-            <h3>High School</h3>
-            <p>
-              Completed high school from Umakanta Academy (English Medium) school in the year of 2022.
-            </p>
+            </div>
           </div>
         </div>
 
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2023</div>
-          <div class="timeline-content">
-            <h3>University</h3>
-            <p>
-              Currently doing my bachelors in Computer Science Engineering from ICFAI Univerity, Tripura. 
-            </p>
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax" style="background-image: url('images/bg.jpg');" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+              
+            <div class="col-md-7 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero">Udai Das</h1>
+              <h2 class="subheading gsap-reveal-hero">Lorem ipsum dolor sit amet consectetur.</h2>
+            </div>
+
           </div>
         </div>
 
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2024</div>
-          <div class="timeline-content">
-            <h3>Research Trainee</h3>
-            <p>
-              Did my research for Smart Security Surveillance as a project to upgrade Traditional Surveillance cameras with the help of AI and IOT hardware.
-            </p>
+
+        <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+      </div>
+
+
+      <div class="unslate_co--section" id="skills-section">
+        <div class="section-heading-wrap text-center mb-5">
+          <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Skills</span></h2>
+          <span class="gsap-reveal">
+          <img src="images/divider.png" alt="divider" width="76">
+          </span>
+        </div>
+
+        <div class="container">
+          <div class="owl-carousel logo-slider">
+            <div class="logo-v1 gsap-reveal">
+              <i class="fa-brands fa-html5 fa-7x"></i>
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <i class="fa-brands fa-css3-alt fa-7x"></i>
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <i class="fa-brands fa-js fa-7x"></i>
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <i class="fa-brands fa-python fa-7x"></i>
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <i class="fa-brands fa-react fa-7x"></i>
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <i class="fa-brands fa-figma fa-7x"></i>
+            </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <footer class="footer">
-      <div class="social">
-        <a href="#"><i class="fa-brands fa-github"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+          
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">About Me</span></h2>
+            <span class="gsap-reveal">
+            <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+          
+
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/about_me_pic2.jpg" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">We can make it together</span></h3>
+              <p class="lead gsap-reveal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there <a href="#">live the blind</a> texts. </p>
+              <p class="mb-4 gsap-reveal">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              <p class="gsap-reveal"><a href="cv.pdf" class="btn btn-outline-pill btn-custom-light">Download my CV</a></p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <p class="copyright">&copy; Udai Das | All Rights Reserved</p>
-    </footer>
-    <script src="./script.js"></script>
+      <div class="unslate_co--section" id="services-section">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Services</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/001-options.svg" alt="Image" width="45">
+                </div>
+                <h3>Web <br> Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, temporibus!</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/002-chat.svg" alt="Icon" width="45">
+                </div>
+                <h3>UI/UX <br> Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ut!</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/003-contact-book.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Graphics <br> Designing</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, assumenda!</p>
+              </div> 
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="testimonial-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Happy Clients</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+        </div>
+
+        <div class="owl-carousel testimonial-slider" data-aos="fade-up">
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_man_1.jpg" alt="Image">
+                <h3>Eric Ingram</h3>
+                <span class="d-block position">Product Designer @facebook</span>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_man_2.jpg" alt="Image">
+                <h3>Ryan Mullins</h3>
+                <span class="d-block position">Product Designer @Shopify</span>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_woman_1.jpg" alt="Image">
+                <h3>Erica Miller</h3>
+                <span class="d-block position">Product Designer @Twitter</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END testimonial -->
+
+      <div class="unslate_co--section" id="journal-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Projects</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+          
+          <div class="row gutter-v4 align-items-stretch">
+
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="0">
+
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>A Mounteering Guide For Beginners</h3>
+                    <p class="post-meta">By Joefrey <span class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="images/post_3.jpg" class="lazyload" alt="Image" />
+              </a>
+
+
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>A Mounteering Guide For Beginners</h3>
+                    <p class="post-meta">By Joefrey <span class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="images/post_4.jpg" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="200">
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>A Mounteering Guide For Beginners</h3>
+                    <p class="post-meta">By Joefrey <span class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="images/post_5.jpg" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+      </div> <!-- END .unslate_co-site-inner -->
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              
+              <div class="footer-site-logo"><a href="#">Udai Das<span>.</span></a></div>
+
+              <ul class="footer-site-social">
+                <li><a href="https://www.linkedin.com/in/udai-das-9277a223b">LinkedIn</a></li>
+                <li><a href="https://x.com/SoundsInverted">Twitter</a></li>
+                <li><a href="https://www.instagram.com/archilect_7">Instagram</a></li>
+                <li><a href="https://github.com/udai7">Github</a></li>
+              </ul>
+
+              <p class="site-copyright">
+                
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+    </div>
+
+    
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+
   </body>
 </html>
